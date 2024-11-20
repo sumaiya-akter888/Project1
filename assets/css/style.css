@@ -1,0 +1,207 @@
+*{
+font-family: poppins;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+}
+
+.btn{
+    background-color: #fd9c6b;
+    color:white;
+}
+
+
+.card{
+    border: none;
+    background-color: #eeeeee;
+}
+
+
+/* ========nav-css========= */
+.nav-item a{
+    color: white;
+}
+
+
+/* =========banner-css========= */
+.banner{
+    background-image: url(../images/slider-bg.jpg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+   background-position:top;
+}
+
+.banner-content{
+    top: 8rem;
+}
+
+
+.btn1{
+   color: #fd9c6b;
+   border: 2px solid #fd9c6b;
+   background-color: transparent;
+}
+
+
+ /* ===========latest product-css=========  */
+.pic img{
+    height: 11rem;
+   width: 100%;
+   padding-left:4rem ;
+   padding-right:4rem ;
+}
+
+.new{
+    padding-top: 14px;
+   height: 50px;
+   width: 50px;
+    border-radius: 50%;
+}
+
+span{
+    color: #fd9c6b;
+}
+
+
+/* =======about us-css=========*/
+.about-image{
+    position: relative;
+    padding: 20px 0 0 20px;
+}
+
+.about-image::before{
+    content: '';
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background-color: #160e0b;
+    z-index: -99;
+}
+
+.about-image img{
+    padding-top: 20px;
+    padding-left: 20px;
+    z-index: 2;
+}
+
+
+/* =========discount img-css========= */
+.discount{
+    position: relative;
+}
+
+.content1{
+    position: absolute;
+    top: 10px;
+}
+
+.content-2{
+    bottom: 1rem;
+   right: 1rem;
+    
+}
+
+.content-3{
+    bottom: 1rem;
+ }
+
+
+
+ /* ==========latest blog-css======= */
+ .btn3{
+   color: #160e0b;
+   border:2px solid #160e0b;
+   background-color: transparent;
+ }
+
+ .btn3:hover{
+    background-color: black;
+    color: white;
+ }
+
+
+ .image{
+    position: relative;
+ }
+
+ .box{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    background-color: #160e0b;
+    border: 3px solid white;
+    bottom: 11.5rem;
+    left: 1rem;
+ }
+
+
+
+ /* ==========footer-css======== */
+ .btn4{
+    border-radius: 0;
+    font-size: x-small
+}
+
+.btn4 i{
+    margin-top: 8px;
+}
+
+.form-control{
+    border-radius: 0;
+}
+
+ .icon i{
+    height:30px;
+    width:30px;
+    border: 1px solid;
+    color: white;
+    font-size: x-small;
+    padding: 0.6rem;
+ }
+
+
+ .footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+.ft-pic{
+    height: 60px;
+    width: 60px;
+}
+
+.footer img{
+   padding: 5px;
+}
+
+
+.contact a{
+    line-height: 1.7rem;
+}
+.contact i{
+    margin-right: 10px;
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 

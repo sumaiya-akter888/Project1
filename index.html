@@ -1,18 +1,461 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css" integrity="sha512-TPigxKHbPcJHJ7ZGgdi2mjdW9XHsQsnptwE+nOUWkoviYBn0rAAt0A5y3B1WGqIHrKFItdhZRteONANT07IipA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Project1</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css"
+    integrity="sha512-TPigxKHbPcJHJ7ZGgdi2mjdW9XHsQsnptwE+nOUWkoviYBn0rAAt0A5y3B1WGqIHrKFItdhZRteONANT07IipA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Project1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- =========navbar========== -->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-light" href="#">Jewellery</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+  <main>
+
+    <!-- ==========banner========= -->
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="banner-content text-light position-absolute">
+              <h1 class="fw-bold mb-3">Best Jewellery <br>Collection</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Aut ab voluptate doloremque earum atque
+                amet nobis, <br> inventore, esse cum totam incidunt, aperiam dolorum?</p>
+              <a class="btn px-4 mt-4 btn1" href="">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- ===========latest-product========= -->
+    <div class="container mt-5">
+      <h3 class="text-center fw-bold">LATEST PRODUCTS</h3>
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 mt-5 mb-3">
+        <div class="col mb-4">
+          <div class="card">
+            <div class="new m-2 bg-light">
+              <h6 class="text-center fw-bold">New</h6>
+            </div>
+            <div class="card-body">
+              <div class="pic">
+                <img src="assets/images/p1.png" alt="">
+              </div>
+            </div>
+            <div class="details p-2 mt-4 d-flex">
+              <div class="product">
+                <p>Necklace</p>
+              </div>
+              <div class="pp ms-auto">
+                <p>Price <span>$200</span></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="new m-2 bg-light">
+              <h6 class="text-center fw-bold">New</h6>
+            </div>
+            <div class="card-body">
+              <div class="pic">
+                <img src="assets/images/p2.png" alt="">
+              </div>
+            </div>
+            <div class="details p-2 mt-4 d-flex">
+              <div class="product">
+                <p>Necklace</p>
+              </div>
+              <div class="pp ms-auto">
+                <p>Price <span>$200</span></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="new m-2 bg-light">
+              <h6 class="text-center fw-bold">New</h6>
+            </div>
+            <div class="card-body">
+              <div class="pic">
+                <img src="assets/images/p3.png" alt="">
+              </div>
+            </div>
+            <div class="details p-2 mt-4 d-flex">
+              <div class="product">
+                <p>Necklace</p>
+              </div>
+              <div class="pp ms-auto">
+                <p>Price <span>$200</span></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="new m-2 bg-light">
+              <h6 class="text-center fw-bold">New</h6>
+            </div>
+            <div class="card-body">
+              <div class="pic">
+                <img src="assets/images/p4.png" alt="">
+              </div>
+            </div>
+            <div class="details p-2 mt-4 d-flex">
+              <div class="product">
+                <p>Necklace</p>
+              </div>
+              <div class="pp ms-auto">
+                <p>Price <span>$200</span></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="new m-2 bg-light">
+              <h6 class="text-center fw-bold">New</h6>
+            </div>
+            <div class="card-body">
+              <div class="pic">
+                <img src="assets/images/p5.png" alt="">
+              </div>
+            </div>
+            <div class="details p-2 mt-4 d-flex">
+              <div class="product">
+                <p>Necklace</p>
+              </div>
+              <div class="pp ms-auto">
+                <p>Price <span>$200</span></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="new m-2 bg-light">
+              <h6 class="text-center fw-bold">New</h6>
+            </div>
+            <div class="card-body">
+              <div class="pic">
+                <img src="assets/images/p6.png" alt="">
+              </div>
+            </div>
+            <div class="details p-2 mt-4 d-flex">
+              <div class="product">
+                <p>Necklace</p>
+              </div>
+              <div class="pp ms-auto">
+                <p>Price <span>$200</span></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="new m-2 bg-light">
+              <h6 class="text-center fw-bold">New</h6>
+            </div>
+            <div class="card-body">
+              <div class="pic">
+                <img src="assets/images/p7.png" alt="">
+              </div>
+            </div>
+            <div class="details p-2 mt-4 d-flex">
+              <div class="product">
+                <p>Necklace</p>
+              </div>
+              <div class="pp ms-auto">
+                <p>Price <span>$200</span></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="new m-2 bg-light">
+              <h6 class="text-center fw-bold">New</h6>
+            </div>
+            <div class="card-body">
+              <div class="pic">
+                <img src="assets/images/p8.png" alt="">
+              </div>
+            </div>
+            <div class="details p-2 mt-4 d-flex">
+              <div class="product">
+                <p>Necklace</p>
+              </div>
+              <div class="pp ms-auto">
+                <p>Price <span>$200</span></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="button d-flex justify-content-center">
+        <a class="btn px-4 btn2" href="">View All Products</a>
+      </div>
+
+    </div>
+
+
+    <!-- =======about us========= -->
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 my-5">
+        <div class="col mb-4">
+          <div class="about-image">
+            <img src="assets/images/about-img.jpg" alt="" class="img-fluid">
+          </div>
+          
+        </div>
+        <div class="col my-4">
+          <div class="about-content mt-5">
+          <h3 class="fw-bold">ABOUT US</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam obcaecati voluptatum architecto cumque
+            deleniti culpa delectus, accusamus eveniet dignissimos, in sint. Optio, aliquid nam. Vel tempora iste
+            reiciendis distinctio assumenda?</p>
+          <a class="btn px-4 my-3" href="">Read More</a>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- =========discount img========= -->
+    <div class="container-fluid">
+      <div class="row my-5">
+        <div class="col-md-7 mb-4">
+          <div class="card discount">
+            <img src="assets/images/o1.jpg" alt="" class=" img-fluid  ">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-4">
+                  <div class="content1 text-light">
+                    <h1 class="fw-bold">Upto 15% Off</h1>
+                    <a class="btn rounded-0 px-4 mt-2 btn1" href="">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="row row-cols-1">
+            <div class="col mb-4">
+              <div class="card">
+                <img src="assets/images/o2.jpg" alt="" class="img-fluid position-relative">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="content content-2 text-light position-absolute">
+                        <h5 class="fw-bold">Upto 10% Off</h5>
+                        <a class="btn rounded-0 px-4 mt-2 btn1" href="">Shop Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/images/o3.jpg" alt="" class="img-fluid position-relative">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="content content-3 text-light position-absolute">
+                        <h5 class="fw-bold">Upto 20% Off</h5>
+                        <a class="btn rounded-0 px-4 mt-2 btn1" href="">Shop Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+      <!-- ==========latest blog======= -->
+      <div class="container">
+        <h3 class="text-center">LATEST FROM BLOG</h3>
+        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2  mt-5">
+          <div class="col">
+            <div class="card">
+              <div class="image">
+                <img src="assets/images/b1.jpg" alt="" class="img-fluid w-100">
+                </div>
+                <div class="box">
+                  <h6 class="text-light text-center m-1">14 July</h6>
+              </div>
+              <div class="card-body">
+                <div class="card-content my-3">
+                  <h5 class="fw-bold">Molestiae ad reiciendis dignissimos</h5>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores unde eum reprehenderit. Dolore,
+                    repellat asperiores.</p>
+                  <a class="btn btn3 rounded-0 px-4" href="">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="image">
+                <img src="assets/images/b2.jpg" alt="" class="w-100">
+              </div>
+              <div class="box">
+                <h6 class="text-light text-center m-1">15 July</h6>
+              </div>
+              <div class="card-body">
+                <div class="card-content my-3">
+                  <h5 class="fw-bold">Molestiae ad reiciendis dignissimos</h5>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores unde eum reprehenderit. Dolore,
+                    repellat asperiores.</p>
+                  <a class="btn btn3 rounded-0 px-4" href="">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ==========footer======== -->
+      <div class="footer bg-dark">
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-md-9 mb-4">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Enter Your Email">
+                <a class="btn btn4 px-3" href=""><i class="fas fa-arrow-right "></i></a>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="footer-icon d-flex gap-2">
+                <div class="icon"><a href=""><i class="fab fa-facebook-f"></i></a></div>
+                <div class="icon"><a href=""><i class="fab fa-twitter"></i></a></div>
+                <div class="icon"><a href=""><i class="fab fa-linkedin-in"></i></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 py-4">
+            <div class="col mb-4">
+              <ul class="lh-l">
+                <li>
+                  <h5 class="text-light fw-bold">Menu</h5>
+                </li>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Blog</a></li>
+              </ul>
+            </div>
+            <div class="col mb-4">
+              <div class="row text-light">
+                <h5 class="fw-bold mb-3 p-0">Instagram</h5>
+                <div class="col-3 bg-light ft-pic">
+                  <img src="assets/images/p1.png" alt="" class="img-fluid w-100 h-100">
+                </div>
+                <div class="col-9">
+                  <p>Long established <br> fact that a <br> reader</p>
+                </div>
+                <div class="col-3 bg-light ft-pic">
+                  <img src="assets/images/p2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-9">
+                  <p>Long established <br> fact that a <br> reader</p>
+                </div>
+              </div>
+            </div>
+            <div class="col text-light mb-4">
+              <div class="about-us m-0 p-0">
+              <h5 class=" fw-bold">About Us</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos amet delectus inventore ipsam quae rerum
+                maiores totam saepe temporibus hic.
+              </p>
+              </div>
+            </div>
+            <div class="col text-light contact mb-4">
+              <ul>
+                <li>
+                  <h5 class=" fw-bold">Contact Us</h5>
+                </li>
+                <li>
+                  <a href=""><i class="fas fa-map-marker-alt"></i> Location</a>
+                </li>
+                <li><a href=""><i class="fas fa-phone-alt"></i> Call +011234567890</a></li>
+                <li><a href=""><i class="fas fa-envelope"></i> demo@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ========footer-2========= -->
+      <div class="footer-2">
+        <div class="container py-3">
+          <p class="text-center">&copy; 2024 All Rights Reserved By Jewellery</p>
+        </div>
+      </div>
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
