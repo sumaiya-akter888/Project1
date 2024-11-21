@@ -196,7 +196,13 @@ span{
 
 
 
-
+.box2{
+    height: 55px;
+    width: 55px;
+    background-color: #160e0b;
+    border: 3px solid white;
+   left: 2.8rem;
+ }
 
 
 
