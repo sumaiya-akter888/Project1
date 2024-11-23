@@ -45,6 +45,12 @@ text-decoration: none;
    background-color: transparent;
 }
 
+.btn1:hover{
+    background-color: #fd9c6b;
+    color: white;
+}
+
+
 
  /* ===========latest product-css=========  */
 .pic img{
@@ -160,6 +166,11 @@ span{
     color: white;
     font-size: x-small;
     padding: 0.6rem;
+ }
+
+ .icon i:hover{
+    background-color: white;
+    color: #160e0b;
  }
 
 
